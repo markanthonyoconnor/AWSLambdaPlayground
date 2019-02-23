@@ -7,7 +7,7 @@ grunt.initConfig({
     lambda_invoke: {default: {}},
     lambda_deploy: {
         default: {
-            arn: "lambda arn",
+            arn: "arn:aws:lambda:eu-west-1:124366716525:function:resizer",
             options: {
                 region: "eu-west-1",
                 timeout: 5,

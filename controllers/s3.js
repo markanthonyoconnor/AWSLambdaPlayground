@@ -2,10 +2,9 @@ const AWS = require('aws-sdk');
 
 AWS.config.apiVersions = {
   s3: '2006-03-01',
-  // other service API versions
 };
-
 AWS.config.update({region: 'eu-west-1'});
+
 const s3 = new AWS.S3();
 
 const getObject = (bucket, key) => {
@@ -46,6 +45,6 @@ const putObject = (body, bucket, key) => {
 }
 
 module.exports = {
-  putObject,
-  getObject
+  getObject,
+  putObject
 };
