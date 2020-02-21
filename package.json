@@ -16,6 +16,7 @@
   },
   "devDependencies": {
     "grunt": "^1.0.3",
-    "grunt-aws-lambda": "^0.13.0"
+    "grunt-aws-lambda": "^0.13.0",
+     "set-value": ">=2.0.1"
   }
 }
