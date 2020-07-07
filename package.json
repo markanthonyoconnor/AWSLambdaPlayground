@@ -15,7 +15,7 @@
     "sharp": "^0.21.3",
     "lodash": ">=4.17.12",
     "js-yaml": ">=3.13.1",
-    "npm": ">=6.13.4",
+    "npm": ">=6.14.6",
     "mixin-deep": ">=1.3.2"
   },
   "devDependencies": {
